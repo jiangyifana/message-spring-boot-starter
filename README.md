@@ -88,7 +88,7 @@ message:
 ```yaml
 message:
   feishu:
-    message:
+    customRobot:
       - alias: alias #所有通道的别名不能重复
         hookid: hookid
         secret: secret
