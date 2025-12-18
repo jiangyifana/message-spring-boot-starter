@@ -8,9 +8,9 @@ import java.util.List;
 @Data
 public class WeixinPrpperties {
 
-    private List<DingtalkProperties.CustomRobot> customRobot = new ArrayList<>();
+    private List<WeixinPrpperties.CustomRobot> customRobot = new ArrayList<>();
 
-    private List<DingtalkProperties.Message> message = new ArrayList<>();
+    private List<WeixinPrpperties.Message> message = new ArrayList<>();
 
     /**
      * 自定义机器人
